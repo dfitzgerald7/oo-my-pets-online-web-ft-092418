@@ -37,6 +37,15 @@ class Owner
     self.pets[:fishes].each {|fish| fish.mood = "happy"}
   end 
   
+  def sell_pets
+    self.pets.each do |pet_arr|
+      pet_arr.each do |pet|
+        pet.mood = "nervous"
+      end 
+    end 
+      
+  end 
+  
   def self.count 
     @@all.count 
   end 
