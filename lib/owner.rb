@@ -41,8 +41,10 @@ class Owner
     self.pets.each do |pet_arr|
       pet_arr.each do |pet|
         pet.mood = "nervous"
-      end 
+      end
+      pet_arr.clear
     end 
+    
       
   end 
   
