@@ -47,6 +47,9 @@ class Owner
       pet_arr.clear
     end 
     
+  def list_pets
+    
+  end 
       
   end 
   
