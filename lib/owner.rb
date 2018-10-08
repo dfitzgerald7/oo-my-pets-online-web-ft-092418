@@ -40,6 +40,7 @@ class Owner
   def sell_pets
     self.pets.each do |pet_arr|
       pet_arr.each do |pet|
+        binding.pry
         pet.mood = "nervous"
       end
       pet_arr.clear
